@@ -1,6 +1,7 @@
 package org.ucombinator.jade.decompile
 
 import com.github.javaparser.ast.CompilationUnit
+import com.github.javaparser.ast.body.ClassOrInterfaceDeclaration
 import org.objectweb.asm.ClassReader
 import org.objectweb.asm.Opcodes
 import org.objectweb.asm.tree.ClassNode
@@ -73,7 +74,7 @@ object Decompile {
 
       val file = filePathMap[topLevel]!!
       log.info { "Writing top-level class [${i + 1} of ${topLevelClasses.size}] $topLevel" }
-      val cu = compilationUnits[topLevel]!!
+      val compilationUnit = compilationUnits[topLevel]!!
       val classFileName = file.getName()
       if (!classFileName.contains(suffix)) {
         throw Exception("Invalid file name: file $classFileName does not end with .class")
