@@ -19,6 +19,9 @@ playground/output/
 # Build temporary testing and building directory
 /tmp
 
+# Setup for jenv
+.java-version
+
 #Claude.md
 Claude.md
 agent.md

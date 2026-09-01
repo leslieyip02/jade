@@ -190,7 +190,7 @@ object DecompileStatement {
         // TODO: constructor?
         pendingInside.remove(currentInsn)
         val outEdges = removeOutEdges(currentInsn!!)
-        val (_, decompiled) = DecompileInsn.decompileInsn(currentInsn!!.insn, ssa, classNode, thisVars)
+        val (_, decompiled) = DecompileInsn.decompileInsn(currentInsn!!.insn, ssa, classNode)
         val next = currentInsn?.next()
         val insnIsALoopHead =
           cfg.graph.incomingEdgesOf(currentInsn).any { structure.backEdges.contains(it) }
