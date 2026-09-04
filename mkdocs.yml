@@ -1,0 +1,50 @@
+site_name: Jade
+site_description: A Java decompiler that aims for high reliability through extensive testing.
+site_url: https://leslieyip02.github.io/jade/
+repo_url: https://github.com/leslieyip02/jade
+repo_name: leslieyip02/jade
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist
+
+nav:
+  - Home: index.md
+  - Usage: USAGE.md
+  - Developer Guide: developer-guide.md
+  - Maven: maven.md
+  - Algorithms: algorithms.md
+  - Projects: projects.md
+  - FAQ: FAQ.md
+  - Style: style.md
+  - Links: links.md
+  - Module Documentation: Module.md
+  - Notes: NOTES.md
+  - TODO: TODO.md
+  - Ideas: ideas.md

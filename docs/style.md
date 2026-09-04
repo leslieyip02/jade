@@ -24,7 +24,7 @@ Other code guides
 
 - Prefer `"${x}"` over `"$x"`.
   - Reason: Avoids mistakes like "$x.y" and minimizes change when going from `"$x"` to `"${y.x}"`
-  - [Implementation](../buildSrc/src/main/kotlin/org/michaeldadams/ktlint/LongStringTemplateRule.kt)
+  - [Implementation](https://github.com/leslieyip02/jade/blob/main/buildSrc/src/main/kotlin/org/michaeldadams/ktlint/LongStringTemplateRule.kt)
 
 ### Not Yet Automated
 
