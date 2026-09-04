@@ -1,6 +1,12 @@
 # Gradle cache directory
 .gradle/
 
+# Generated documentation site
+site/
+
+# Local Python virtual environment
+.venv/
+
 # Kotlin Gradle plugin directory
 .kotlin/
 

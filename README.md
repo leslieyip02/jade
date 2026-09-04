@@ -53,12 +53,12 @@ TODO: explain the following
 
 ## Developer Guide
 
-For more details on Jade's codebase and working on Jade, refer to Developer Guide at [docs/DeveloperGuide.md](docs/DeveloperGuide.md)
+For more details on Jade's codebase and working on Jade, refer to Developer Guide at [docs/developer-guide.md](docs/developer-guide.md)
 
 ## Documentation
 
 TODO: See docs/USAGE.md
-See docs/MAVEN.md
+See docs/maven.md
 
 ## Source Organization
 
